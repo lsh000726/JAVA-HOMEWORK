@@ -169,7 +169,7 @@ int num = 1;
             int num_sum = 0;
             int ssum = 0;
 
-            for (int j = 0; j < i; j++) {
+            for (int j = 0; j <= i; j++) {
                 num *= 10;
                 int b_num = num_sum;
 
